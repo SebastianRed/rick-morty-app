@@ -1,0 +1,50 @@
+### Gradle ###
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Gradle wrapper logs
+gradle-app.setting
+
+### Android Studio ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Caches
+captures/
+.externalNativeBuild/
+.cxx/
+
+
+### Kotlin ###
+*.class
+*.log
+
+### Generated files ###
+app/release/
+app/debug/
+outputs/
+reports/
+
+### Signing ###
+*.jks
+*.keystore
+keystore.properties
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### IntelliJ ###
+out/
+
+### Navigation Safe Args ###
+app/src/main/java/**/generated/
+
+### Compose Preview ###
+.idea/caches/
